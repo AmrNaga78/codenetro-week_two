@@ -17,7 +17,7 @@ addBookToList(book) {
         
             <h3>${book.name}</h3>
             <p><strong>Author : </strong>${book.author}</p>
-            <p><strong>Year Founded : </strong>${book.number}</p>
+            <p><strong>year of publication : </strong>${book.number}</p>
             <button class="btn btn-danger">
                 <a href="" class="delete">Delete</a>
             </button>
