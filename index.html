@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Lista</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <h2>Add A New Book</h2>
+                <form  id="book-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="u-full-width">
+                    </div>
+                    <div>
+                        <label for="author">Author</label>
+                        <input type="text" id="author" class="u-full-width">
+                    </div>
+                    <div>
+                        <label for="number">Year</label>
+                        <input type="number" id="number" class="u-full-width">
+                    </div>
+        
+                    <div>
+                        <input type="submit" value="submit" class="sub">
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h2>Book List</h2>
+
+                <ul id="book-list">
+                    <li id="book-item">
+                        <h3>you don't know js</h3>
+                        <span>Amr Naga - </span>
+                        <span>2018</span>
+                        <button class="btn btn-danger"><a href="" class="delete">Delete</a></button>
+                    </li>
+
+                    <li id="book-item">
+                        <h3>don't make me think</h3>
+                        <span>Amr Naga - </span>
+                        <span>2015</span>
+                        <button class="btn btn-danger"><a href="" class="delete">Delete</a></button>
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        
+    </div>
+
+    <script src="appes6.js"></script>
+</body>
+</html>

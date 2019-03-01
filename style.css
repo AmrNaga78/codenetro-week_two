@@ -1,0 +1,48 @@
+.success, 
+.error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.success{
+    background: green;
+}
+
+.error{
+    background: red;
+}
+
+#book-form input.sub {
+    margin: 10px auto;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    background: #ddd;
+    padding: 15px;
+}
+
+ul li {
+    background: #eee;
+    padding: 1px 15px 15px;
+    position: relative;
+}
+
+ul li button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li button a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li button {
+    position: absolute;
+    right: 10px;
+    top: 25%;
+}
+
